@@ -15,7 +15,7 @@ body {
   --secondary-text-color: #e5e7eb;
   --quote-text-size: 36px;
   --quote-text-weight: 300;
-
+}
 .nav {
   display: flex;
   background-color: var(--dark-background-color);
