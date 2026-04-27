@@ -1,0 +1,31 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+.container{
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    margin: 0 auto;
+}
+.board {
+    display:grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: repeat(3, 1fr);
+    border: 1px solid black;
+    gap: 2px;
+    padding: 3px;
+    background-color: yellowgreen;
+}
+.cell {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    font-size: 2.2rem;
+    border: 1px solid darkslategray;
+    background-color: lightyellow;
+    cursor: pointer;
+
+}
